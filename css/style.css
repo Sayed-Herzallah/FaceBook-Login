@@ -1,0 +1,148 @@
+/* *{
+    padding: 0;
+    margin: 0;
+}
+.header-home{
+    width: 70%;
+    text-align: center;
+    padding: 200px;
+}
+.header-home .facebook{
+    float: left;
+}
+.header-home .form-home{
+    box-shadow: 10px  #230202;
+    background: rgb(235, 230, 230);
+    float: right;
+    padding: 50px;
+}
+.clear{
+    clear: both;
+}
+.form-home{
+    width: 50%;
+}
+.form{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+}
+.form input{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.create{
+    float: left;
+}
+.log in{
+    width: 100%;
+}
+ */
+/* all tag */
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        /*  attribute body */
+        body {
+            font-family: Helvetica, Arial, sans-serif;
+            background-color: #f0f2f5;
+        }
+        /* header-home */
+        .header-home {
+            width: 80%;
+            margin: auto;
+            padding: 150px 0;
+        }
+        
+
+        /* div left */
+        .facebook {
+            float: left;
+            width: 45%;
+            padding: 50px 20px;
+        }
+        /* start content */
+        .facebook h2 {
+            color: #1877f2;
+            font-size: 60px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .facebook p {
+            font-size: 28px;
+            line-height: 32px;
+        }
+        /* end content */
+        
+        /* float right */
+        .form-home {
+            float: right;
+            width: 45%;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+        }
+        
+        .form {
+            width: 100%;
+            text-align: center;
+        }
+        
+        .form input[type="text"],
+        .form input[type="password"] {
+            width: 100%;
+            padding: 14px 16px;
+            margin-bottom: 12px;
+            border: 1px solid #dddfe2;
+            border-radius: 6px;
+            font-size: 17px;
+        }
+        
+        .login-btn {
+            width: 100%;
+            padding: 14px 16px;
+            background-color: #1877f2;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 20px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-bottom: 16px;
+        }
+        
+        .form a {
+            color: black;
+            text-decoration: none;
+            font-size: 14px;
+            display: block;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .form hr {
+            margin: 20px 0;
+            border: none;
+            border-top: 1px solid #707376;
+        }
+        
+        .create {
+            display: inline-block;
+            padding: 14px 16px;
+            background-color: #42b72a;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 17px;
+            font-weight: bold;
+        }
+        
+        .clear {
+            clear: both;
+        }
