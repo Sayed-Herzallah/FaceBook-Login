@@ -1,12 +1,11 @@
 # 🔵 Facebook Login UI Clone
 
-A high-fidelity HTML and CSS layout replication of the classic Facebook login page.
+A high-fidelity HTML and CSS layout clone of the Facebook login landing page.
 
 ---
 
-## 📌 Overview
-
-**FaceBook-Login** is a visual layout project focused on pixel-perfect CSS replication. It mimics the main typography, colors, forms, boxes, and footer links of the original Facebook desktop landing page.
+## 📌 System Overview
+This project replicates the desktop login landing page of Facebook. It focuses on pixel-perfect form inputs, container layouts, typography alignment, and clean responsive CSS declarations.
 
 ---
 
@@ -14,33 +13,36 @@ A high-fidelity HTML and CSS layout replication of the classic Facebook login pa
 
 | Technology | Purpose |
 | ---------- | ------- |
-| HTML5      | Page components structure |
-| CSS3       | Colors, card shadows, and layout grids |
+| HTML5      | Structural layouts of login fields and page blocks |
+| CSS3       | Custom shadows, button colors, and responsive layouts |
 
 ---
 
-## 🚀 Key Features
-
-* 🔍 **Pixel-Perfect Styling:** Matches layout styles, input margins, and colors.
-* 🖱️ **Button Interactions:** Hover animations on buttons and input box focus.
-* 🌐 **Footer Links:** Replicates the multi-language links layout.
-
----
-
-## 🏗️ Project Structure
-
-* `index.html` - Login form layout.
-* `css/` - Directory holding CSS style files.
+## 🚀 Core Features
+* 📐 **Pixel-Perfect Representation:** Matches dimensions, border radiuses, and margins of the real site.
+* 🖱️ **Button Micro-interactions:** Smooth CSS hover transitions on action elements.
+* 🌐 **Footer Navigation:** Precise representation of Facebook's footer languages and index items.
 
 ---
 
-## 👨&zwj;💻 Author
+## 🏗️ Directory Structure
+```
+├── css/             # Styles folders
+│   └── style.css    # Layout properties and fonts overrides
+└── index.html       # Structural layout file
+```
 
+---
+
+## ⚙️ Setup & Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Sayed-Herzallah/FaceBook-Login.git
+   ```
+2. Open `index.html` in a web browser.
+
+---
+
+## 👨‍💻 Author
 **Sayed Herzallah**  
-Frontend Developer
-
----
-
-## ⭐ Support
-
-If you find this project useful, consider giving it a star on GitHub.
+Full Stack Developer
